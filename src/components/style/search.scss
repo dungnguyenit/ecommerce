@@ -1,0 +1,74 @@
+.search {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;  
+    .search-item {
+        display: flex;
+        justify-content: flex-start;
+        .search-ip {
+            width: 896px;
+            height: 44px;
+            border: none;
+            border-bottom: 1px solid #000825;
+            outline: none;
+            font-family: "Abel";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 33px;
+            color: #22232b;
+        }
+        .search-icon {
+            font-size: 30px;
+            padding-right: 30px;
+        }
+    }
+    .select {
+        width: 302px;
+        height: 44px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #000825;
+        float: right;
+        font-family: "Abel";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 33px;
+        color: #22232b;
+    }
+}
+@media screen and (max-width: 768px) {
+    .search {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        .search-item {
+            .search-ip {
+                width: 240px;
+                font-family: "Abel";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 33px;
+                color: #22232b;
+            }
+            .search-icon {
+                font-size: 20px;
+                padding-left: 30px;
+            }
+        }
+        .select {
+            margin-right: -40px;
+            font-family: "Abel";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 33px;
+            color: #22232b;
+            width: 300px;
+            margin-top: 20px;
+        }
+    }
+}
