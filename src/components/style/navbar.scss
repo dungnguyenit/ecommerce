@@ -21,6 +21,27 @@
             background-color:black ;
             padding:10px;
         }
+        .nav-cart{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 5%;
+            .Login{
+                padding-left: 80%;
+                text-decoration: none;
+                color: black;
+                font-size: 13px;
+                padding: 10px 20px;
+                margin: 0 10px;
+                cursor: pointer;
+                list-style: none;
+            }
+            .logo{
+                width: 15%;
+                height: 25px;
+
+            }
+           
+        }
         .home,
         .magazine,
         .shop,
@@ -32,12 +53,8 @@
             margin: 0 10px;
             cursor: pointer;
         }
-        .Login{
-            padding-left: 80%;
-        }
-        .nav-cart{
-            margin-right: 10%;
-        }
+       
+       
         .mobile-menu-icon {
             display: none;
         }
@@ -49,11 +66,15 @@
                     display: flex;
                     position: absolute;
                     top: 15px;
-                    left:15px;
+                    left:0px;
             
                 }
                 .nav-links{
                     display:none;
+                }
+                .nav-logo{
+                    position: absolute;
+                    left: 10px;
                 }
                 .nav-links-mobile{
                     position: absolute;
@@ -90,6 +111,9 @@
                     outline:none;
                     top: 15px;
                     right: 25px;
+                }
+                .Login{
+                    display: none;
                 }
             
            
